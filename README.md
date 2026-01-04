@@ -34,17 +34,6 @@ O banco de dados já vem com um usuário administrador configurado:
 
 ### 3. Configurar Variáveis de Ambiente
 
-Crie um arquivo `.env` na raiz do projeto baseado no exemplo fornecido:
-
-- **Windows**:
-  ```bash
-  copy .env.example .env
-  ```
-- **Linux/Mac**:
-  ```bash
-  cp .env.example .env
-  ```
-
 Edite o arquivo `.env` com suas credenciais do banco de dados local:
 
 ```ini
