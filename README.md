@@ -1,4 +1,4 @@
-# MPenha Finance CRM
+# MPenha Financeiro do Futuro
 
 Sistema de controle financeiro pessoal simples e eficiente.
 
