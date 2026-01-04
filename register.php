@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - IAFinanceCRM</title>
+    <title>Cadastro - MPenha</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="theme-color" content="#2563eb">
 </head>

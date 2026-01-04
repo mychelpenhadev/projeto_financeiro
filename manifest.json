@@ -1,6 +1,6 @@
 {
-    "name": "IAFinanceCRM",
-    "short_name": "IAFinance",
+    "name": "MPenha Finance",
+    "short_name": "MPenha",
     "start_url": "/dashboard.php",
     "display": "standalone",
     "background_color": "#1a202c",

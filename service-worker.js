@@ -1,4 +1,4 @@
-const CACHE_NAME = 'iafinance-v2'; 
+const CACHE_NAME = 'mpenha-v1';
 const urlsToCache = [
   './',
   'index.php',
@@ -10,7 +10,7 @@ const urlsToCache = [
 ];
 
 self.addEventListener('install', event => {
-  self.skipWaiting(); 
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
@@ -34,19 +34,19 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  
+
   if (event.request.mode === 'navigate' || event.request.destination === 'document') {
     event.respondWith(
       fetch(event.request)
         .catch(() => {
           return caches.match(event.request)
-            .then(res => res || caches.match('index.php')); 
+            .then(res => res || caches.match('index.php'));
         })
     );
     return;
   }
 
-  
+
   event.respondWith(
     caches.match(event.request)
       .then(response => {
