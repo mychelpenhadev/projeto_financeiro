@@ -30,7 +30,7 @@ cd projeto_financeiro
 #### Usuário Padrão
 O banco de dados já vem com um usuário administrador configurado:
 - **Email**: `admin@iafinance.com`
-- **Senha**: `123456` (ou verifique o hash no banco para redefinir se necessário)
+- **Senha**: `admin123` (ou verifique o hash no banco para redefinir se necessário)
 
 ### 3. Configurar Variáveis de Ambiente
 
