@@ -59,7 +59,7 @@ DB_PASS=
 Se estiver usando XAMPP:
 1. Mova a pasta do projeto para `C:\xampp\htdocs\`.
 2. Inicie o Apache e o MySQL pelo painel do XAMPP.
-3. Acesse no navegador: `http://localhost/app-crm-financeiro`
+3. Acesse no navegador: `http://localhost/projeto_financeiro`
 
 ## Estrutura de Pastas
 
